@@ -1,12 +1,11 @@
 public class Fibonacci {
-    // Recursive static method to find the nth term of the Fibonacci sequence
     public static int fibonacci(int n){
         if (n<=1) {
             return n;
         }
         return fibonacci(n-1)+fibonacci(n-2);
         }
-        //Main method
+        //Main method remains the same
     public static void main(String[] args){
         int n = 10;
         int result = fibonacci(n);
